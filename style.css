@@ -1,0 +1,23 @@
+ body {
+    background-color: rgb(60, 10, 169);
+    color: rgb(255, 255, 255);
+ }
+img {
+    max-width: 20%;
+}
+ .container {
+    max-width: min(80ch, 100vw - 4rem);
+margin-inline: auto;
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ nav > ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+ }
